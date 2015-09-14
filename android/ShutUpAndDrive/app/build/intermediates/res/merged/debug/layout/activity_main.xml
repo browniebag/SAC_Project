@@ -1,0 +1,32 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+
+
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+<TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView" />
+
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text= "@string/initSpeed"
+    android:id="@+id/speedometer"
+    android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="149dp"
+    android:textSize="@android:dimen/notification_large_icon_width"
+    android:textStyle="bold"
+    android:textColor="#ff081e" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Jeremy/AndroidStudioProjects/ShutUpAndDrive/app/src/main/res/layout/activity_main.xml -->

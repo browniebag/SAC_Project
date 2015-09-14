@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Shut Up And Drive</string>
+    <string name = "initSpeed">0.00 mph</string>
+    <string name="hello_world">How fast am I going ?</string>
+    <string name="action_settings">Settings</string>
+</resources>
