@@ -1,9 +1,8 @@
 package com.example.jeremy.shutupanddrive;
 
-import android.Manifest;
 import android.content.Context;
-import android.content.pm.PackageManager;
-import android.preference.PreferenceActivity;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,7 +13,6 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.widget.TextView;
 import android.content.Intent;
-import android.preference.PreferenceActivity;
 
 public class MainActivity extends AppCompatActivity implements LocationListener {
 
@@ -26,14 +24,35 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         LocationManager lm = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
 
         try {
+            // Ensure TandC is accepted before starting the application
+            SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+            Boolean tc = sp.getBoolean("appTandC", false);
+            if(!tc) {
+                Intent i = new Intent(this, TermsAndConditions2.class);
+                startActivityForResult(i, 0);
+
+            }
             lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, this);
         }catch (SecurityException se){
-
 
         }
         this.onLocationChanged(null);
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        if(resultCode == RESULT_CANCELED){
+            finish();
+            System.exit(0);
+        }
+        if(resultCode == RESULT_OK){
+            SharedPreferences prefs = PreferenceManager
+                    .getDefaultSharedPreferences(getBaseContext());
+            SharedPreferences.Editor edit = prefs.edit();
+            edit.putBoolean("appTandC", true);
+            edit.commit();
+        }
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -52,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
 
-            startActivity(new Intent(this, preferences.class));
+            startActivity(new Intent(this, appPreferences.class));
             return true;
         }
 

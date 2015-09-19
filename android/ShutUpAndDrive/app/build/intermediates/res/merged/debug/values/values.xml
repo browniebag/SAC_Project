@@ -37,6 +37,11 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <!-- From: file:/C:/Users/Frank/Repo/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black_overlay">#66000000</color>
+    <!-- From: file:/C:/Users/Frank/Repo/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -93,6 +98,7 @@
     <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
     <declare-styleable name="AlertDialog"><attr name="android:layout"/><attr format="reference" name="buttonPanelSideLayout"/><attr format="reference" name="listLayout"/><attr format="reference" name="multiChoiceItemLayout"/><attr format="reference" name="singleChoiceItemLayout"/><attr format="reference" name="listItemLayout"/></declare-styleable>
     <declare-styleable name="AppCompatTextView"><attr format="reference|boolean" name="textAllCaps"/><attr name="android:textAppearance"/></declare-styleable>
+    <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="metaButtonBarStyle"/><attr format="reference" name="metaButtonBarButtonStyle"/></declare-styleable>
     <declare-styleable name="CompoundButton"><attr name="android:button"/><attr format="color" name="buttonTint"/><attr name="buttonTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
@@ -205,6 +211,30 @@
     <integer name="abc_max_action_buttons">2</integer>
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <!-- From: file:/C:/Users/Frank/Repo/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="TermsAndConditions">Terms and Conditions ("Terms")<br/><br/>
+Last updated: 09/19/2015.
+Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using
+the http://www.mysite.com (change this) website (the "Service") operated by My Company, Inc.
+(change this) ("us", "we", or "our").<br/>
+Your access to and use of the Service is conditioned on your acceptance of and compliance with
+these Terms. These Terms apply to all visitors, users and others who access or use the Service.
+By accessing or using the Service you agree to be bound by these Terms. If you disagree with any
+part of the terms then you may not access the Service.
+Termination clause for websites that do not have accounts. If your website or mobile app allows
+users to register and have an account, create your own Terms and Conditions.
+<br/>
+        Termination
+        <br/>
+We may terminate or suspend access to our Service immediately, without prior notice or liability, for
+any reason whatsoever, including without limitation if you breach the Terms.
+All provisions of the Terms which by their nature should survive termination shall survive
+termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and
+limitations of liability.
+</string>
+    <!-- From: file:/C:/Users/Frank/Repo/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -224,13 +254,23 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <!-- From: file:/C:/Users/Frank/Repo/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="accept_button">Accept</string>
     <string name="action_settings">Settings</string>
     <string name="app_name">Shut Up And Drive</string>
+    <string name="decline_button">Decline</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="hello_world">How fast am I going ?</string>
     <string name="initSpeed">0.00 mph</string>
     <!-- From: file:/C:/Users/Frank/Repo/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <!-- From: file:/C:/Users/Frank/Repo/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_activity_terms_and_conditions">TermsAndConditions</string>
+    <string name="title_activity_terms_and_conditions2">Terms and Coditions</string>
+    <!-- From: file:/C:/Users/Frank/Repo/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -1155,6 +1195,24 @@
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
+    <!-- From: file:/C:/Users/Frank/Repo/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+    <style name="ButtonBarButton"/>
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+    <!-- From: file:/C:/Users/Frank/Repo/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
 

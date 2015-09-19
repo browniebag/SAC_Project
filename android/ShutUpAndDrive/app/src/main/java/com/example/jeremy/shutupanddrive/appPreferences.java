@@ -5,7 +5,7 @@ import android.preference.PreferenceActivity;
 /**
  * Created by Frank on 9/18/2015.
  */
-public class preferences  extends PreferenceActivity{
+public class appPreferences extends PreferenceActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);

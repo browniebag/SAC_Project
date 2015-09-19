@@ -25,7 +25,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.jeremy.shutupanddrive.preferences" />
+        <activity android:name="com.example.jeremy.shutupanddrive.appPreferences" />
+        <activity
+            android:name="com.example.jeremy.shutupanddrive.TermsAndConditions"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_terms_and_conditions"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.example.jeremy.shutupanddrive.TermsAndConditions2"
+            android:label="@string/title_activity_terms_and_conditions2" >
+        </activity>
     </application>
 
 </manifest>
