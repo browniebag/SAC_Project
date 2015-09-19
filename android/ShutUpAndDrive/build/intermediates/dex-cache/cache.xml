@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Jeremy\AndroidStudioProjects\ShutUpAndDrive\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="C:\Users\Jeremy\AndroidStudioProjects\ShutUpAndDrive\app\build\intermediates\pre-dexed\debug\classes-f7b292f144fadabb885dd9ad0135801e7aed3d3d.jar" />
-    </item>
-    <item
-        jar="C:\Users\Jeremy\AndroidStudioProjects\ShutUpAndDrive\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="C:\Users\Jeremy\AndroidStudioProjects\ShutUpAndDrive\app\build\intermediates\pre-dexed\debug\classes-f5cfb79a25187e0d0793cd33d0795e00bb5be432.jar" />
-    </item>
-    <item
-        jar="C:\Users\Jeremy\AndroidStudioProjects\ShutUpAndDrive\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\Users\Jeremy\AndroidStudioProjects\ShutUpAndDrive\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-bc87c81a3c0e00c4d3fa50d5e2eaba74a1ce2875.jar" />
-    </item>
-    <item
-        jar="C:\Users\Jeremy\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jar="C:\Users\Frank\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="C:\Users\Jeremy\AndroidStudioProjects\ShutUpAndDrive\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-7721d9025bc9aa27db41799c36149b3de37439a4.jar" />
+        <dex dex="C:\Users\Frank\Repo\SAC_Project\android\ShutUpAndDrive\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-364d38de9f1b816f61e767e9f20a88fd97612f4c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Frank\Repo\SAC_Project\android\ShutUpAndDrive\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Frank\Repo\SAC_Project\android\ShutUpAndDrive\app\build\intermediates\pre-dexed\debug\classes-68c3e258f5d71a9c48ac980faec3bcce14ec0084.jar" />
+    </item>
+    <item
+        jar="C:\Users\Frank\Repo\SAC_Project\android\ShutUpAndDrive\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Frank\Repo\SAC_Project\android\ShutUpAndDrive\app\build\intermediates\pre-dexed\debug\classes-cbe4ab9b6c1820e6de64fd457d7ac5d2ea01b2e3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Frank\Repo\SAC_Project\android\ShutUpAndDrive\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Frank\Repo\SAC_Project\android\ShutUpAndDrive\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-3193aa1e9022b7d9210a4eb6d91da1c85986e458.jar" />
     </item>
 
 </items>

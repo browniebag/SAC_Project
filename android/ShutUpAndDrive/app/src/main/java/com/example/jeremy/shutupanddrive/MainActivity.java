@@ -3,15 +3,18 @@ package com.example.jeremy.shutupanddrive;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.preference.PreferenceActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.widget.TextView;
-
+import android.content.Intent;
+import android.preference.PreferenceActivity;
 
 public class MainActivity extends AppCompatActivity implements LocationListener {
 
@@ -22,8 +25,12 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         setContentView(R.layout.activity_main);
         LocationManager lm = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
 
-        lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, this);
+        try {
+            lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, this);
+        }catch (SecurityException se){
 
+
+        }
         this.onLocationChanged(null);
     }
 
@@ -44,6 +51,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+
+            startActivity(new Intent(this, preferences.class));
             return true;
         }
 
@@ -66,13 +75,8 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
             double roundSpeed= Math.round(currentSpeed*100.00)/100;
             speed.setText(roundSpeed + "mph");
 
-
-
-
-
-
-
         }
+
     }
 
 

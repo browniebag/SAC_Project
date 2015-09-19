@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Emergency Contact Number"
+        android:summary="Please add the phone number of the emergency contact."></EditTextPreference>
+    <CheckBoxPreference android:title="Send Text Messages to Emergency Contact"
+        android:defaultValue="false"
+        android:summary="This option is used to send messages to the emergency contact."
+        android:key="applicationUpdates" />
+    <CheckBoxPreference android:title="Application Updates"
+        android:defaultValue="false"
+        android:summary="This option if selected will allow the application to check for latest versions."
+        android:key="applicationUpdates" />
+
+</PreferenceScreen>

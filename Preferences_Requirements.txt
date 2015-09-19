@@ -1,0 +1,10 @@
+Perefence: 
+1. Emergency Contact Number 
+	List of contacts
+2. Send Emergency Contact SMS Messages
+	Check Box
+3. Emergency Contact Email Address
+4. Master Password 
+	Password that will be used to unlock the application
+5. Application updates
+	Check box
