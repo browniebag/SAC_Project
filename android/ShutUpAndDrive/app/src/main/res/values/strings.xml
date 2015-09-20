@@ -11,15 +11,25 @@
     <string name="decline_button">Decline</string>
     <string name="TermsAndConditions">Terms and Conditions ("Terms")<br /><br />
 Last updated: 09/19/2015.
-Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using
-the http://www.mysite.com (change this) website (the "Service") operated by My Company, Inc.
-(change this) ("us", "we", or "our").<br />
+Please read these Terms and Conditions carefully before using
+this application.<br />
 Your access to and use of the Service is conditioned on your acceptance of and compliance with
 these Terms. These Terms apply to all visitors, users and others who access or use the Service.
 By accessing or using the Service you agree to be bound by these Terms. If you disagree with any
 part of the terms then you may not access the Service.
-Termination clause for websites that do not have accounts. If your website or mobile app allows
-users to register and have an account, create your own Terms and Conditions.
+--------Permissions---------
+this application will access the GPS location services on your device
+This application will also use administrator privileges on your device
+in order to prevent deletion and to allow the app to prevent usage while driving
+if these services are denied this app will not function properly.
+
+--------Liability----------
+Misuse of this application is strictly prohibited if you
+do not have the authority or permission to install this application on this device
+please decline these permissions and exit the application immediately.
+The creators of this application will not be held responsible for damages done by misuse of the application
+This application is designed to prevent distraction however we make no claims that it is infallible and take no responsibility
+for accidents caused while using this application in any way.
 <br />
         Termination
         <br />
