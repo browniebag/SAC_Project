@@ -13,6 +13,7 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.widget.TextView;
 import android.content.Intent;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements LocationListener {
 
@@ -84,7 +85,10 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
 
         if( location == null){
             speed.setText("-.-- mph");
+            String msg = "Longitude: " + location.getLongitude() +
+                    "Latitude: " + location.getLatitude();
 
+            Toast.makeText(getBaseContext(), msg, Toast.LENGTH_SHORT).show();
         }
         else{
 
