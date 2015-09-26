@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-b1ba9a1445b07b3af91de31edffd4b4fa02bead3.jar" />
-    </item>
-    <item
         jar="/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
         <dex dex="/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/pre-dexed/debug/classes-53995bd3e45cc2723edc040105e0d3888c9f3053.jar" />
+    </item>
+    <item
+        jar="/Users/fmartinez/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-3b5bb2858116e0123037b2a0f80876954b084221.jar" />
     </item>
     <item
         jar="/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
@@ -23,11 +23,11 @@
         <dex dex="/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/pre-dexed/debug/classes-31c2ee42670430d01a983f590a397380cd4d7923.jar" />
     </item>
     <item
-        jar="/Users/fmartinez/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-3b5bb2858116e0123037b2a0f80876954b084221.jar" />
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-b1ba9a1445b07b3af91de31edffd4b4fa02bead3.jar" />
     </item>
 
 </items>
