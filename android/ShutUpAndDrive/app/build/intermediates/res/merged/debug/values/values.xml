@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/array.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/array.xml -->
     <eat-comment/>
     <string-array name="contact_array">
         <item>First Name</item>
@@ -14,7 +14,7 @@
         <item/>
         <item/>
     </string-array>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -37,10 +37,10 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="black_overlay">#66000000</color>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -178,11 +178,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -211,7 +211,7 @@
     <integer name="abc_max_action_buttons">2</integer>
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="TermsAndConditions">Terms and Conditions ("Terms")<br/><br/>
 Last updated: 09/19/2015.
@@ -243,7 +243,7 @@ All provisions of the Terms which by their nature should survive termination sha
 termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and
 limitations of liability.
 </string>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -262,7 +262,7 @@ limitations of liability.
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="accept_button">Accept</string>
     <string name="action_settings">Settings</string>
@@ -272,25 +272,25 @@ limitations of liability.
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="hello_world">How fast am I going ?</string>
     <string name="initSpeed">0.00 mph</string>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_terms_and_conditions">TermsAndConditions</string>
     <string name="title_activity_terms_and_conditions2">Terms and Coditions</string>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1205,7 +1205,7 @@ limitations of liability.
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="ButtonBar">
         <item name="android:paddingLeft">2dp</item>
@@ -1221,7 +1221,7 @@ limitations of liability.
         <item name="metaButtonBarStyle">@style/ButtonBar</item>
         <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
     </style>
-    <!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
