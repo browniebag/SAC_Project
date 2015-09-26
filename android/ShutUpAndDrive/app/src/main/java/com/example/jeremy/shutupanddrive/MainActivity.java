@@ -2,6 +2,7 @@ package com.example.jeremy.shutupanddrive;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.location.GpsStatus;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,18 +14,23 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.widget.TextView;
 import android.content.Intent;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements LocationListener {
+import com.example.jeremy.shutupanddrive.Utensils.MyRunnable;
+import com.example.jeremy.shutupanddrive.Utensils.SpeedSimulator;
 
+public class MainActivity extends AppCompatActivity implements LocationListener, GpsStatus.Listener, GpsStatus.NmeaListener {
+
+    private LocationManager lm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        LocationManager lm = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
 
         try {
-            // Ensure TandC is accepted before starting the application
+
+            // Ensure Terms and Conditions is accepted before starting the application
             SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
             Boolean tc = sp.getBoolean("appTandC", false);
             if(!tc) {
@@ -32,11 +38,33 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
                 startActivityForResult(i, 0);
 
             }
+            lm = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
             lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, this);
+
+
+           MyRunnable myRunnable = new MyRunnable(getBaseContext());
+
+            Thread t = new Thread(myRunnable);
+            t.run();
+
+
         }catch (SecurityException se){
 
         }
         this.onLocationChanged(null);
+    }
+
+    @Override
+    public void onGpsStatusChanged(int i){
+        Log.d("APP", "GPS Status is chaning!");
+    }
+
+    @Override
+    public void onNmeaReceived(long timestamp, String nmea){
+        Log.d("APP", "DateTime: " + String.valueOf(timestamp));
+        Log.d("APP", "NMEA: " + nmea);
+
+
     }
 
     @Override
@@ -82,26 +110,30 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
     public void onLocationChanged(Location location) {
        TextView speed = (TextView)this.findViewById(R.id.speedometer);
 
+
         if( location == null){
             speed.setText("-.-- mph");
 
         }
         else{
+            try {
+                Log.d("APP", String.valueOf(location.getSpeed()));
 
-            double currentSpeed = location.getSpeed();
-            currentSpeed =(currentSpeed* 2.23693629);
+                double currentSpeed = location.getSpeed();
+                currentSpeed = (currentSpeed * 2.23693629);
 
-            double roundSpeed= Math.round(currentSpeed*100.00)/100;
-            speed.setText(roundSpeed + "mph");
-
+                double roundSpeed = Math.round(currentSpeed * 100.00) / 100;
+                speed.setText(roundSpeed + "mph");
+            }catch (SecurityException se){
+                Log.d("APP", "[onLocationChangedException] " + String.valueOf(se.getMessage()));
+            }
         }
 
     }
 
-
-
     @Override
     public void onStatusChanged(String provider, int status, Bundle extras) {
+            Log.d("APP", "onStatusChanged" + String.valueOf(status));
 
     }
 
