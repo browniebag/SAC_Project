@@ -17,4 +17,4 @@
         android:summary="Please accept our Terms and Conditions."
         android:key="appTandC"
         android:clickable="false"/>
-</PreferenceScreen><!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/xml/preferences.xml -->
+</PreferenceScreen><!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/xml/preferences.xml -->

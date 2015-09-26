@@ -5,4 +5,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
-<!-- From: file:/Users/fmartinez/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/menu/menu_terms_and_conditions2.xml -->
+<!-- From: file:/C:/Users/Jeremy/Documents/GitHub/SAC_Project/android/ShutUpAndDrive/app/src/main/res/menu/menu_terms_and_conditions2.xml -->
